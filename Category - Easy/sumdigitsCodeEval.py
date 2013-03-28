@@ -50,3 +50,5 @@ if __name__ == '__main__':
 	test_cases = f.read().split('\n')	
 	for test_case in test_cases:
 		print sum( map(int, test_case) )
+		
+	f.close()

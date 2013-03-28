@@ -72,3 +72,5 @@ if __name__ == '__main__':
 
 	for test_case in test_cases:
 		print isHappyNum(test_case)
+		
+	f.close()

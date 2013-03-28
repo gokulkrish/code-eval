@@ -71,3 +71,5 @@ def isMultipleOf(a, b):	return a%b == 0def fizzBuzz(a, b, countUpto):	for n
 		if len(test_case[0]) > 0:
 			fizzBuzz( int(test_case[0]), int(test_case[1]), int(test_case[2]))
 			print
+			
+	f.close()

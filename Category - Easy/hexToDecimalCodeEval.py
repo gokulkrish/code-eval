@@ -59,3 +59,5 @@ if __name__ == '__main__':
 	
 	for test_case in test_cases:
 		print convertToInt(test_case)
+		
+	f.close()

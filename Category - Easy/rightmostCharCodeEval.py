@@ -54,3 +54,5 @@ if __name__ == '__main__':
 	
 	for test_case in test_cases:
 		print test_case[0].rfind(test_case[1])
+		
+	f.close()

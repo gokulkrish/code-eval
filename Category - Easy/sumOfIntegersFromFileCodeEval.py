@@ -51,3 +51,5 @@ if __name__ == '__main__':
 	test_cases = f.read().split('\n')
 	
 	print sum( [int(i) for i in test_cases if len(i) > 0] )
+	
+	f.close()
